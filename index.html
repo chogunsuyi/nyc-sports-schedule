@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="bg-ny-orange font-roboto">
+    <h1 class="text-center text-ny-blue text-4xl">NEW YORK CITY SPORT SCHEDULE</h1>
+    <div class="mt-[50px]">
+        <img src="./images/Rob Carr-Getty Images.jpg" alt="" class="h-[400px] mx-auto">
+    </div>
+
+    <div class="bg-ny-blue text-ny-orange mt-[30px]">
+        <h2 class="text-center text-2xl">Games</h2>
+        <div class="mx-auto flex flex-col">
+            <input type="date" name="games-date" class=" mx-auto text-center rounded-lg border-2 border-black">
+            <button class=" rounded-lg border-2 border-black mx-auto px-[10px] bg-brown my-[5px] text-white hover:bg-tetradic">
+                Get Games
+            </button>
+        </div>
+        <table>
+            <tr>
+                <th>NFL Games</th>
+            </tr>
+            <tr>
+                <td id="nfl-list">None</td>
+            </tr>
+            <tr>
+                <th>NBA Games</th>
+            </tr>
+            <tr>
+                <td id="nba-list"></td>
+            </tr>
+            <tr>
+                <th>MLB Games</th>
+            </tr>
+            <tr>
+                <td id="mlb-list">None</td>
+            </tr>
+            <tr>
+                <th>NHL Games</th>
+            </tr>
+            <tr>
+                <td id="nhl-list">None</td>
+            </tr>
+            <tr>
+                <th>MLS Games</th>
+            </tr>
+            <tr>
+                <td id="mls-list">None</td>
+            </tr>
+        </table>
+        
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
