@@ -534,6 +534,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.relative {
+  position: relative;
+}
+
+.top-1\/2 {
+  top: 50%;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -580,6 +588,11 @@ video {
   max-height: 200px;
 }
 
+.-translate-y-1\/2 {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .grid-cols-2-1 {
   grid-template-columns: 2fr 1fr;
 }
@@ -594,6 +607,14 @@ video {
 
 .border-2 {
   border-width: 2px;
+}
+
+.border-l-2 {
+  border-left-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
 }
 
 .border-black {
