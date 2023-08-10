@@ -560,8 +560,28 @@ video {
   display: table;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-\[400px\] {
   height: 400px;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.max-h-\[500px\] {
+  max-height: 500px;
+}
+
+.max-h-\[200px\] {
+  max-height: 200px;
+}
+
+.grid-cols-2-1 {
+  grid-template-columns: 2fr 1fr;
 }
 
 .flex-col {
